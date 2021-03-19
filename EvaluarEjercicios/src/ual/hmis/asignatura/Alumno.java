@@ -35,6 +35,7 @@ public class Alumno {
 				for (int j=0;j<b.getEjercicios().size();j++) {
 					nota += b.getEjercicios().get(j).getPuntuacion();
 				}
+				nota /= b.getEjercicios().size();
 				b.setPuntuacionTotal(nota);
 				break;
 			}

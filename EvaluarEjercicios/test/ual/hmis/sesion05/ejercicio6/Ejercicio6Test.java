@@ -16,7 +16,7 @@ class Ejercicio6Test {
 		String nota3 = a.calificacion(7);
 		String nota4 = a.calificacion(9);
 		String nota5 = a.calificacion(10);
-		String nota6 = a.calificacion(11);
+		String nota6 = a.calificacion(12);
 		
 		assertTrue(nota1=="Suspenso");
 		assertTrue(nota2=="Aprobado");
